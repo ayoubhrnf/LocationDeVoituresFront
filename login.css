@@ -1,0 +1,161 @@
+body{
+  height: 526px;
+  padding-top:60px;
+  text-overflow: ellipsis;
+  margin: 0px;
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+p{
+  font-family: Robobto,Arial;
+}
+button{
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+img{
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.haut{
+  background-color:black;
+  position:fixed;
+  top:0px;
+  left:0px;
+  right:0px;
+  height:50px;
+  z-index:11;
+  display: flex;
+  flex-direction: row;
+}
+.gauche{
+  background-color: rgb(36, 36, 36);
+  flex: 3;
+}
+.logo{
+  height: 50px;
+}
+.logo-image{
+  height: 50px;
+  width: 70px;
+}
+.centre{
+  background-color: gray;
+  flex: 5;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.homebut{
+  flex: 1; 
+  justify-content: center;
+  background-color: gray;
+  color: white;
+  border: 0px;
+  padding: 0px;
+  cursor: pointer;
+}
+.droit{
+  background-color: rgb(36, 36, 36);
+  flex: 3;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+}
+
+.loginbut{  
+  background-color: white;
+  color: rgb(41, 118, 211);
+  border-color:rgb(41, 118, 211);
+  border-radius: 10px;
+  height:36px;
+  width:150px;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: color 0.15s,background 0.15s;
+}
+.loginbut:hover{
+  background-color: rgb(9, 158, 250);
+  color: white;
+}
+.loginbut:active{
+  opacity: 0.7;
+}
+
+
+/*login panel*/
+
+.descri1{
+  color: rgb(130, 130, 130);
+  font-size: 70px;
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 50px;
+}
+.login-div{
+  background-color: cadetblue;
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.conect-text{
+  height: 50px;
+  display:block;
+  width: 350px;
+  font-size: 30px;
+  padding-top: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.adresse-input{
+ height: 50px;
+ width: 350px;
+ margin-top: 10px;
+ display:block;
+ font-size: 23px;
+ font-family: "Poppins", sans-serif;
+
+}
+.motdepasse-input{
+ height: 50px;
+ width: 350px;
+ margin-top: 8px;
+ display:block;
+ font-size: 23px;
+ font-family: "Poppins", sans-serif;
+}
+.conect-but{
+  margin-top: 23px;
+  background-color: rgb(161, 103, 216);
+  color: white;
+  width: 120px;
+  height: 50px;
+  border-radius: 30px;
+  border: 0px;
+  transition: opacity 0.1s;
+  font-family: "Poppins", sans-serif;
+
+}
+.conect-but:hover{
+  opacity: 0.8;
+}
+.conect-but:active{
+  opacity: 0.4;
+}

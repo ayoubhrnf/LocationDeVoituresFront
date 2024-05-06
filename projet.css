@@ -1,0 +1,209 @@
+p{
+  font-family: Robobto,Arial;
+  padding: 0px;
+  margin: 0px;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  text-overflow: ellipsis;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  
+}
+img{
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+button{
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.gauche{
+  background-color: rgb(36, 36, 36);
+  flex: 3;
+}
+.logo{
+  height: 50px;
+}
+.logo-image{
+  height: 50px;
+  width: 70px;
+}
+.descreption1{
+  flex: 1;
+  height: 434px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nembre{
+  color: white;
+  font-size: 50px;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  line-height: 1;
+  
+}
+.ecriture{
+  color: gray;
+  font-size: 10px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.contacte{
+ height: 50px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ background-color:rgb(36, 36, 36);
+ 
+}
+.contactebut{
+  flex: 1; 
+  background-color:rgb(36, 36, 36);
+  border: 0px;
+  padding: 0px;
+  height: 50px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: opacity 0.5s,background 0.5s;
+}
+.contactebut:hover{
+  opacity: 0.8;
+  background-color: gray;
+}
+.contactebut:active{
+  opacity: 0.4;
+  background-color: gray;
+}
+.contacte-image{
+  height: 50px;
+  width: 50px;
+}
+.centre{
+  background-color: gray;
+  flex: 5;
+}
+.homecars{
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.homebut{
+  flex: 1; 
+  justify-content: center;
+  background-color: gray;
+  color: white;
+  border: 0px;
+  padding: 0px;
+  cursor: pointer;
+}
+.descreption2{
+  display: flex;
+  height: 90px;
+  align-items: center;
+  justify-content: center;
+}
+.des2text{
+  font-size: 70px;
+  color: white;
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.photovoiture{
+  height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.reserver{
+  margin-top: 55px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.reserverbut{
+  background-color: rgb(9, 158, 250);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  height: 35px;
+  width: 90px;
+  font-size: 15px;
+  font-weight: bold;
+  transition: box-shadow  0.15s,height 1s,width 1s;
+}
+.reserverbut:hover{
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5) ;
+  height: 45px;
+  width: 110px;
+}
+.reserverbut:active{
+  opacity: 0.5;
+}
+.droit{
+  background-color: rgb(36, 36, 36);
+  flex: 3;
+}
+.logindiv{
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+}
+.loginbut{  
+  background-color: white;
+  color: rgb(41, 118, 211);
+  border-color:rgb(41, 118, 211);
+  border-radius: 10px;
+  height:36px;
+  width:150px;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: color 0.15s,background 0.15s;
+}
+.loginbut:hover{
+  background-color: rgb(9, 158, 250);
+  color: white;
+}
+.loginbut:active{
+  opacity: 0.7;
+}
+.descreption3{
+ height: 350px;
+ 
+}
+.des3text{
+ color: rgb(173, 173, 173);
+ font-size: 10px;
+ margin-top: 40px;
+ margin-left :30px;
+ margin-right: 30px;
+}
